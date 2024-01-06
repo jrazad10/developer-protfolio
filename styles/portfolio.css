@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -69,9 +70,9 @@ nav a {
 
 .header {
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -113,7 +114,7 @@ main {
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -158,42 +159,47 @@ main section{
 
 /* resume section style  */
 
-.resume-column-title{
+.resume-column-title {
     columns: #474747;
     font-size: 30px;
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
-.resume-item-title{
+
+.resume-item-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.resume-item-institute, .resume-item-description{
+
+.resume-item-institute,
+.resume-item-description {
     color: #757575;
-    
+
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px 2px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 /* footer style  */
 
-footer{
+footer {
     display: flex;
     background-color: #fff8f3;
     padding: 130px 200px;
@@ -201,15 +207,17 @@ footer{
     gap: 100px;
 }
 
-.footer-column{
+.footer-column {
     width: 50%;
 }
 
-.social-links{
+.social-links {
     margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"], textarea{
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
