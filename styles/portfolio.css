@@ -17,7 +17,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 
 }
 
@@ -44,6 +44,11 @@ nav {
     margin: 0 200px;
 }
 
+nav  ul {
+    display: flex;
+    align-items: center;
+}
+
 nav .nav-title {
     color: #181818;
     font-size: 45px;
@@ -51,10 +56,7 @@ nav .nav-title {
     line-height: normal;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
-}
+
 
 nav li {
     list-style: none;
@@ -88,7 +90,7 @@ nav a {
 }
 
 .banner .profile-pic {
-    width: 500px;
+    width: 1500px;
 }
 
 .banner-greeting {
@@ -106,6 +108,7 @@ nav a {
 
 .banner-description {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /* main section style  */
