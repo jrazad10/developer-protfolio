@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #fd6e0a;
 }
 
-.btn-primary{
+.btn-primary {
     color: #fff;
     background-color: #fd6e0a;
     border-radius: 5px;
@@ -15,47 +16,104 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-top: 50px;
 
 }
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.section-description{
+    color: #181818;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-nav .nav-title{
+
+nav .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     line-height: normal;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
 /* header related styles */
 
-.header{
+.header {
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
-.banner .profile-pic{
+
+.banner-content {
+    max-width: 500;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 20px;
+}
+
+/* main section style  */
+
+
+/* about section style  */
+.about{
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    margin: 130px 0;
 }
