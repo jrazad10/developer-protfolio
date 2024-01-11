@@ -44,7 +44,7 @@ nav {
     margin: 0 200px;
 }
 
-nav  ul {
+nav ul {
     display: flex;
     align-items: center;
 }
@@ -230,4 +230,68 @@ textarea {
     background: #fff;
     border: 0;
     width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+/* responsive styles  */
+/* mobile device  */
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
+    nav,
+    nav > ul, 
+    .banner,
+    .skills-container,
+    .resume-container,
+    .about-info-container,
+    footer {
+        flex-direction: column;
+    }
+
+    .banner .profile-pic{
+        width: 100%;
+    }
+
+    #what-i-do-description {
+        padding: 20px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+
+    nav > ul{
+    gap: 20px;
+    }
+
+    .banner,
+    footer,
+    .about {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    footer {
+        padding: 30px;
+    }
 }
